@@ -20,4 +20,4 @@ elif "{{ cookiecutter.package_management }}" == "poetry":
     print(f"[file to delete]: {file_to_delete}")
     remove(file_to_delete)
 
-print("Done!! Now, you can develop FastAPI project!!")
+print("Done!! Now, you can develop your own Pytorch project!!")
