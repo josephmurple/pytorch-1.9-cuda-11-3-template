@@ -5,6 +5,7 @@
 - Works with Python 3.8
 - CUDA_VERSION=11.3.0.016
 - CUDNN_VERSION=8.2.0.51
+- Jupyter Notebook
 - Etc
 
 
@@ -46,7 +47,7 @@ Enter the project and take a look around:
     $ cd mypytorch/
     $ ls
 
-You can use shell scripts under ./script folder:
+You can use shell scripts under ./script folder. Make sure docker is pre-installed on your machine!
 
     # For build the docker images
     $ bash scripts/build.sh
