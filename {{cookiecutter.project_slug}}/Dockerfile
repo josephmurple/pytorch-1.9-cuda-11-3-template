@@ -15,10 +15,10 @@
 ARG FROM_IMAGE_NAME=nvcr.io/nvidia/pytorch:21.05-py3
 FROM ${FROM_IMAGE_NAME}
 
-ENV PYTHONPATH /workspace/template_project
-WORKDIR /workspace/template_project
+ENV PYTHONPATH /workspace/{{cookiecutter.project_slug}}
+WORKDIR /workspace/{{cookiecutter.project_slug}}
 
-ADD requirements.txt .
+ADD requirements/requirements.txt .
 RUN pip install -r requirements.txt
 
 COPY . .
