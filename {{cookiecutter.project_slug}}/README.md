@@ -25,18 +25,15 @@ You'll be prompted for some values. Provide them, then a Pytorch project will be
 
     project_name [Template Project]: mypytorch
     project_slug [mypytorch]:
-    Select open_source_license:
-    1 - MIT license
-    2 - ISC license
-    3 - Apache Software License 2.0
-    4 - GNU General Public License v3
-    5 - Not open source
-    Choose from 1, 2, 3, 4, 5 [1]: 5
-    author_name [contact]: joseph.suh
+    author_name [joseph.suh]:
     email [joseph.suh@murple.ai]:
     Select package_management:
     1 - pip
     2 - poetry
+    Choose from 1, 2 [1]: 1
+    Select use_nvidia_docker:
+    1 - no
+    2 - yes
     Choose from 1, 2 [1]: 1
     [getcwd]: /home/xuhu357/mypytorch
     [file to delete]: /home/xuhu357/mypytorch/pyproject.toml
@@ -49,10 +46,10 @@ Enter the project and take a look around:
 
 You can use shell scripts under ./script folder. Make sure docker is pre-installed on your machine!
 
-    # For build the docker images
+    # To build the docker images
     $ bash scripts/build.sh
 
-    # For interact with docker, using cpu is default option, if gpus are available, you can modify the file: ./scripts/interactive.sh
+    # To interact with docker
     $ bash scripts/interactive.sh
 
 Then you will see that the Dev Environment is ready for you!
