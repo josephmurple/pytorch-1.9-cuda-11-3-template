@@ -4,5 +4,5 @@
     "author_name": "joseph.suh",
     "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@murple.ai",
     "package_management": ["pip", "poetry"],
-    "use_nvidia_docker": ["no", "yes"]
+    "use_nvidia_gpu": ["no", "yes"]
 }

@@ -31,7 +31,7 @@ You'll be prompted for some values. Provide them, then a Pytorch project will be
     1 - pip
     2 - poetry
     Choose from 1, 2 [1]: 1
-    Select use_nvidia_docker:
+    Select use_nvidia_gpu:
     1 - no
     2 - yes
     Choose from 1, 2 [1]: 1
