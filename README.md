@@ -44,7 +44,7 @@ Enter the project and take a look around:
     $ cd mypytorch/
     $ ls
 
-You can use shell scripts under ./script folder. Make sure docker is pre-installed on your machine!
+You can use shell scripts under ./script folder. Make sure [Docker](<https://www.docker.com/get-started>) is pre-installed on your machine!
 
     # To build the docker images
     $ bash scripts/build.sh
