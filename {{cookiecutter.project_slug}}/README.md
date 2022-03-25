@@ -10,41 +10,17 @@
 
 
 ## Usage
-Let's pretend you want to create a Pytorch project called "mypytorch". Rather than using `Template Project`
-and then editing the results to include your name, email, and various configuration issues that always get forgotten until the worst possible moment, get [cookiecutter](https://github.com/cookiecutter/cookiecutter) to do all the work.
 
-First, get Cookiecutter. Trust me, it's awesome:
+First, install requirements:
 
-    $ pip install -r requirements_template.txt
-
-Now run it against this repo:
-
-    $ cookiecutter https://github.com/josephmurple/pytorch-1.9-cuda-11-3-template
-
-You'll be prompted for some values. Provide them, then a Pytorch project will be created for you.
-
-    project_name [Template Project]: mypytorch
-    project_slug [mypytorch]:
-    author_name [joseph.suh]:
-    email [joseph.suh@murple.ai]:
-    Select package_management:
-    1 - pip
-    2 - poetry
-    Choose from 1, 2 [1]: 1
-    Select use_nvidia_gpu:
-    1 - no
-    2 - yes
-    Choose from 1, 2 [1]: 1
-    [getcwd]: /home/xuhu357/mypytorch
-    [file to delete]: /home/xuhu357/mypytorch/pyproject.toml
-    Done!! Now, you can develop your own Pytorch project!!
+    $ pip install -r requirements/requirements.txt
 
 Enter the project and take a look around:
 
     $ cd mypytorch/
     $ ls
 
-You can use shell scripts under ./script folder. Make sure [Docker](<https://www.docker.com/get-started>) is pre-installed on your machine!
+Then, execute shell script under ./script folder. Make sure [pre-requisites](<https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#pre-requisites>) is pre-installed on your machine!
 
     # To build the docker images
     $ bash scripts/build.sh
